@@ -1,2 +1,3 @@
 # Project3
-Band page
+
+live link: https://kykattay.github.io/Project3/
