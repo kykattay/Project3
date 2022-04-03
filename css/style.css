@@ -1,0 +1,27 @@
+/* Font Alumni Sans from Google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&display=swap');
+
+.nav-wrapper {
+    background-color: #A4141D;
+}
+nav {
+    background-color: #A4141D;
+    font-family: sans serif, 'Alumni Sans';
+    font-weight: 500;
+    font-style:italic;
+    padding-left: 30px;
+}
+ul {
+    font-style: normal;
+    padding-right: 30px;
+}
+nav ul a{
+    font-size: 1.5rem !important;
+}
+.custom-font{
+    font-family:'Alumni Sans', sans-serif;
+}
+.sidenav li>a {
+    font-size: 22px;
+    padding-top: 20px;
+}
