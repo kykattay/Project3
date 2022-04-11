@@ -160,18 +160,28 @@ nav ul a{
 }
 .page-footer {
     background-color: #A4141D;
+    padding-left: 50px;
+    padding-bottom: 18px;
 }
 .input-field {
     font-family:'Alumni Sans', sans-serif;
     color: #D7D4C6;
+    width: 40%;
+    display: flex;
+    /* padding-right: 20px; */
 }
 .btn {
     padding-bottom: 0px;
     font-family:'Alumni Sans', sans-serif;
     font-weight: 700;
     font-size: 20px;
+    width: 100px;
     color: #A4141D;
+    text-align: center;
     background-color: #D7D4C6;
+}
+.email {
+    padding-right: 20px;
 }
 
 .white-text {
@@ -253,6 +263,10 @@ h1 {
 .band-text {
     text-align: left !important;
     font-size: 20px !important; 
+}
+.band-text a {
+    color: #000000; 
+    font-weight: 550;
 }
 .band-text b {
     font-size: 27px;
