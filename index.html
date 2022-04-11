@@ -1,49 +1,183 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <!--Import Google Icon Font-->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <!--Import materialize.css-->
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home Page</title>
-    <!-- Compiled and minified CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-    <link rel="stylesheet" href="./css/style.css">
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--Import materialize.css-->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home Page</title>
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link rel="stylesheet" href="./css/style.css">
 </head>
+
 <body>
-    <nav>
-        <div class="nav-wrapper">
-          <a href="index.html" class="brand-logo">TAYLOR SWIFT</a>
-          <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-          <ul class="right hide-on-med-and-down">
-            <li><a href="about.html">about</a></li>
-            <li><a href="discography.html">discography</a></li>
-            <li><a href="video.html">videos</a></li>
-            <li><a href="tour.html">tour</a></li>
-          </ul>
+  <nav>
+    <div class="nav-wrapper">
+      <a href="index.html" class="brand-logo">TAYLOR SWIFT</a>
+      <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="about.html">about</a></li>
+        <li><a href="discography.html">discography</a></li>
+        <li><a href="video.html">videos</a></li>
+        <li><a href="tour.html">tour</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <ul class="sidenav" id="mobile-demo">
+    <li><a class="custom-font" href="about.html">about</a></li>
+    <li><a class="custom-font" href="discography.html">discography</a></li>
+    <li><a class="custom-font" href="video.html">videos</a></li>
+    <li><a class="custom-font" href="tour.html">tour</a></li>
+  </ul>
+  <div class="header-img">
+    <div class="header-text">
+      <p class="red-shadow">RED</p>
+      <p class="red-title">RED</p>
+      <p class="taylors-version">(TAYLOR'S VERSION)</p>
+      <p class="out-now">OUT NOW</p>
+    </div>
+    <!-- <h1>RED</h1>
+      <h2>Taylor Swift</h2> -->
+    <!-- <img src="img/red-1.jpeg" alt="red_hero_img"> -->
+  </div>
+
+  <p class="header">NEWS</p>
+
+  <div class="row container">
+
+    <div class="col s12 l4 news">
+      <a href="https://www.instagram.com/p/CbLgAshpLc5/">
+        <img src="img/i-bet-you-think-abt-me.jpeg" alt="i-bet-you-think-abt-me">
+      </a>
+      <p>“I Bet You Think About Me” nominated for Video of the Year at the ACM and CMT awards</p>
+    </div>
+    <div class="col s12 l4 news">
+      <a href="https://www.instagram.com/p/Ca5BYlrlB38/">
+        <img src="img/fearless-news.jpeg" alt="fearless-news">
+      </a>
+      <p>Taylor is nominated for 4 Kids’ Choice Awards</p>
+      
+    </div>
+    <div class="col s12 l4 news">
+      <a href="https://www.instagram.com/p/CZ0PoBJAA9P/">
+        <img src="img/the-joker-and-the-queen.jpeg" alt="joker-and-the-queen">
+      </a>
+      <p>“The Joker and the Queen” with Ed Sheeran out now</p>
+      
+    </div>
+
+  </div>
+
+  <div class="row container">
+
+    <div class="col s12 l4 news">
+      <a href="https://www.instagram.com/p/CXojBR4lDQF/">
+        <img src="img/evermore-copy.jpeg" alt="evermore-copy">
+      </a>
+      <p>Taylor is nominated for International Artist of the Year at the 2022 BRIT Awards</p>
+    </div>
+
+    <div class="col s12 l4 news">
+      <a href="https://www.instagram.com/p/CZP3IDvl9zx/">
+        <img src="img/red-2.jpeg" alt="red-2">
+      </a>
+      <p>Taylor is nominated for 3 iHeart Awards</p>
+      
+    </div>
+
+    <div class="col s12 l4 news">
+      <a href="https://variety.com/2021/music/news/taylor-swift-snl-all-too-well-red-taylors-version-1235111712/">
+        <img src="img/atw-snl.jpeg" alt="SNL_all-too-well">
+      </a>
+      <p>A recap of Taylor’s night on SNL</p>
+
+
+    </div>
+
+  </div>
+
+  <p class="header">STREAM</p>
+  <p class="sub-head">find Taylor’s music on any of these platforms</p>
+
+  <div class="container">
+    <div class="row flex">
+
+      <div class="col s6 l3 stream valign-wrapper">
+        <a href="https://open.spotify.com/artist/06HL4z0CvFAxyc27GXpf02"><img src="img/Spotify_Logo.png"></a>
+      </div>
+      <div class="col s6 l3 stream valign-wrapper">
+        <a href="https://music.apple.com/us/artist/taylor-swift/159260351"><img src="img/Apple_Music_logo.png"></a>
+      </div>
+      <div class="col s6 l3 stream valign-wrapper">
+        <a href="https://music.youtube.com/channel/UCPC0L1d253x-KuMNwa05TpA"><img src="img/Youtube-Music.png"></a>
+      </div>
+      <div class="col s6 l3 stream valign-wrapper">
+        <a href="https://music.amazon.com/artists/B00157GJ20/taylor-swift?refMarker=null&returnFromLogin=1&"><img src="img/amazon-music-logo.png"></a>
+      </div> 
+    </div>
+  </div>
+
+  <p class="header">SOCIAL MEDIA</p> <!--https://www.w3schools.com/icons/fontawesome_icons_brand.asp logo fonts for hover color change-->
+  <div class="container">
+    <div class="row">
+
+      <div class="col s4 l2 social valign-wrapper">
+        <a href="https://www.instagram.com/taylorswift/"><img src="img/instagram-logo-png.png"></a>
+      </div>
+      <div class="col s4 l2 social valign-wrapper">
+        <a href="https://twitter.com/taylorswift13"><img src="img/twitter-logo-png.png"></a>
+      </div>
+      <div class="col s4 l2 social valign-wrapper">
+        <a href="https://www.tiktok.com/@taylorswift?lang=en"><img src="img/tiktok-logo-png.png"></a>
+      </div>
+      <div class="col s4 l2 social valign-wrapper">
+        <a href="https://www.youtube.com/taylorswift"><img src="img/youtube-logo-png.png"></a>
+      </div>
+      <div class="col s4 l2 social valign-wrapper">
+        <a href="https://www.facebook.com/TaylorSwift"><img src="img/facebook-logo-png.png"></a>
+      </div>
+      <div class="col s4 l2 social valign-wrapper">
+        <a href="https://taylorswift.tumblr.com/"><img src="img/tumblr-logo-png.png"></a>
+      </div>
+
+    </div>
+  </div>
+
+  <footer class="page-footer">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">WE’VE GOT A BLANK SPACE AND WE WANT TO WRITE YOUR NAME</h5>
+          <p class="grey-text text-lighten-4 sign-up">SIGN UP TO STAY CONNECTED</p>
         </div>
-    </nav>
-    
-    <ul class="sidenav" id="mobile-demo"> 
-        <li><a class="custom-font"href="about.html">about</a></li>
-        <li><a class="custom-font"href="discography.html">discography</a></li>
-        <li><a class="custom-font"href="video.html">videos</a></li>
-        <li><a class="custom-font"href="tour.html">tour</a></li>
-    </ul>
-    
+        <div class="row">
+          <form class="col s12">
+            <div class="row">
+              <div class="input-field col s12 l5">
+                <input id="email" type="email" class="validate">
+                <label for="email">Email</label>
+              </div>
+              <button class="btn waves-effect waves-light" type="submit" name="action">SUBMIT</button>
+            </div>
+          </form>
+        </div>
+      </div>
+  </footer>
 
 
-
-    <!--Compiled and minifed jQuery -->
-    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-    <!-- Compiled and minified JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-    <script>
-        $(document).ready(function(){
-        $('.sidenav').sidenav();
-      });
-    </script>
+  <!--Compiled and minifed jQuery -->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      $('.sidenav').sidenav();
+    });
+  </script>
 </body>
+
 </html>

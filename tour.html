@@ -10,10 +10,55 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
+    <nav>
+        <div class="nav-wrapper">
+          <a href="index.html" class="brand-logo">TAYLOR SWIFT</a>
+          <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+          <ul class="right hide-on-med-and-down">
+            <li><a href="about.html">about</a></li>
+            <li><a href="discography.html">discography</a></li>
+            <li><a href="video.html">videos</a></li>
+            <li><a href="tour.html">tour</a></li>
+          </ul>
+        </div>
+      </nav>
     
+      <ul class="sidenav" id="mobile-demo">
+        <li><a class="custom-font" href="about.html">about</a></li>
+        <li><a class="custom-font" href="discography.html">discography</a></li>
+        <li><a class="custom-font" href="video.html">videos</a></li>
+        <li><a class="custom-font" href="tour.html">tour</a></li>
+      </ul>
+      
+      <p class="header">TOUR</p>
+      
+      <div class="tour-img">
+          <div class="tour-text">
+              <p>I love coming on here to tell you good news, or to share a new project with you. It’s not my favorite thing in the world to have to tell you news I’m sad about. I'm so sorry, but I cannot reschedule the shows that we’ve postponed. Although refunds have been available since we first postponed the Lover Fest shows, many of you hung onto your tickets and I too hung onto the idea that we could reschedule.</p>
+              <br>
+              <p>This is an unprecedented pandemic that has changed everyone’s plans and no one knows what the touring landscape is going to look like in the near future. I’m so disappointed that I won’t be able to see you in person as soon as I wanted to. I miss you terribly and can’t wait til we can all safely be at shows together again.</p>
+              <br>
+              <p>-Taylor Swift</p>
+          </div>
+      </div>
+      <br>
+      <br>
+      <p class="bold">NO NEW TOUR DATES</p>
+      <p class="tour-sm">Please check back later</p>
+      <p class="tour-sm"><i>Check out Taylor’s last live performance of “All Too Well (10 Minute Version)" on SNL <a href="https://www.youtube.com/watch?v=nJr_8l0AEWE"><b>here</b></a></i></p>
 
 
 
+
+
+
+      <!--Compiled and minifed jQuery -->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      $('.sidenav').sidenav();
+    });
+  </script>
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 </body>

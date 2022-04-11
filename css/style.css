@@ -1,5 +1,22 @@
 /* Font Alumni Sans from Google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Alumni+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amethysta&display=swap');
+
+
+
+h1,h2,p{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+body {
+    background-color: #D7D4C6;
+
+}
 
 .nav-wrapper {
     background-color: #A4141D;
@@ -25,3 +42,350 @@ nav ul a{
     font-size: 22px;
     padding-top: 20px;
 }
+
+.header-img {
+    background-image: url(../img/red-1.jpeg);
+    background-size:cover ;
+    line-height: 10px;
+    height: 95vh;
+}
+
+.header-text {
+    font-family:'Alumni Sans', sans-serif;
+}
+.red-shadow {
+    font-size: 300px;
+    font-weight: 400;
+    font-style: italic;
+    color: #D7D4C6;
+    padding-left: 50px;
+    padding-top: 190px;
+
+}
+.red-title {
+    font-size: 300px;
+    font-weight: 400;
+    font-style: italic;
+    color: #A4141D;
+    padding-left: 60px;
+    line-height: 0px;
+    margin-bottom: 140px;   
+}
+
+.taylors-version {
+    font-size: 90px;
+    font-weight: 300;
+    font-style: italic;
+    color: #A4141D;
+    padding-left: 50px;
+    line-height: 0px;
+    margin-bottom: 20px;
+}
+.out-now {
+    font-size: 90px;
+    font-weight: 300;
+    font-style: italic;
+    color: #A4141D;
+    padding-left: 50px;
+    line-height: 0px;
+    padding-top: 60px;
+
+}
+
+.header {
+    font-family:'Alumni Sans', sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.col img {
+    width: 250px;
+}
+
+.col p { 
+    font-family:'Alumni Sans', sans-serif;
+    width: 250px;
+    text-align: center;
+    font-size: 23px;
+    line-height: 25px;
+    padding-bottom: 15px;
+}
+.row {
+    padding-bottom: 0px;
+    margin-bottom: 7px;
+}
+
+.sub-head {
+    font-family:'Alumni Sans', sans-serif;
+    font-size: 25px;
+    text-align: center;
+}
+
+.col a img {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;    
+}
+.stream a img {
+    padding-top: 20px;
+    width: 205px;
+}
+
+.social a img {
+    width: 90px;
+    padding-bottom: 100px;
+}
+
+.about {
+    font-family:'Amethsyta', serif;
+    padding-left: 130px;
+    padding-right: 130px;
+    padding-bottom: 50px;
+    font-size: 21px;
+}
+
+.band-link {
+    font-family:'Amethsyta', serif;
+    font-size: 21px;
+    text-align: center;
+    color: #000000;
+    text-decoration: none;
+    padding-bottom: 30px;
+}
+.page-footer {
+    background-color: #A4141D;
+}
+.input-field {
+    font-family:'Alumni Sans', sans-serif;
+    color: #D7D4C6;
+}
+.btn {
+    padding-bottom: 0px;
+    font-family:'Alumni Sans', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #A4141D;
+    background-color: #D7D4C6;
+}
+
+.white-text {
+    font-family:'Alumni Sans', sans-serif;
+    color:#D7D4C6;
+    width: 550px;
+    font-size: 27px;
+    font-style: italic;
+    font-weight: 600;
+}
+.grey-text  {
+    font-family:'Alumni Sans', sans-serif;
+    color:#D7D4C6;
+    width: 400px;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 450;
+    padding-bottom: 0px;
+}
+.sign-up p {
+    text-align: left;
+}
+.album-cover img {
+    width: 600px;
+}
+.songs p{
+    padding: 0px;
+    text-align: left;
+    width: 400px;
+
+}
+h1 {
+    font-family:'Alumni Sans', sans-serif;
+}
+
+.row {
+    padding-left: 80px;
+    padding-top: 20px;
+}
+
+.tour-img {
+    background-image: url(../img/ts-evermore.jpeg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: 90vh;
+    width: 60%;
+    background-repeat: no-repeat;
+    border-radius: 30px;
+}
+.tour-text {
+    position: absolute;
+    text-align: center;
+    width: 610px;
+    font-family:'Alumni Sans', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    padding-top: 30px;
+    line-height: 20px;
+    font-style: italic;
+}
+.bold {
+    font-family:'Alumni Sans', sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    text-align: center;
+    line-height: 16px;
+}
+.tour-sm {
+    font-family:'Alumni Sans', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.tour-sm a{
+    color: #000000;
+}
+.band-text {
+    text-align: left !important;
+    font-size: 20px !important; 
+}
+.band-text b {
+    font-size: 27px;
+}
+.collapsible-header {
+    font-family:'Alumni Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    font-style: italic;
+    background-color: #A4141D;
+    color:#ffffff;
+}
+
+
+@media only screen and (max-width: 750px) {
+
+.header-img {
+    background-image: url(../img/red-responsive.jpg);
+    background-size:cover ;
+    line-height: 10px;
+    height: 40vh;
+}
+.red-shadow {
+    font-size: 100px;
+    font-weight: 400;
+    font-style: italic;
+    color: #D7D4C6;
+    padding-left: 25px;
+    padding-top: 90px;
+
+}
+.red-title {
+    font-size: 100px;
+    font-weight: 400;
+    font-style: italic;
+    color: #A4141D;
+    padding-left: 30px;
+    line-height: 0px;
+    margin-bottom: 50px;   
+}
+
+.taylors-version {
+    font-size: 25px;
+    font-weight: 300;
+    font-style: italic;
+    color: #A4141D;
+    padding-left: 25px;
+    line-height: 0px;
+    margin-bottom: 14px;
+}
+.out-now {
+    font-size: 25px;
+    font-weight: 300;
+    font-style: italic;
+    color: #A4141D;
+    padding-left: 25px;
+    line-height: 0px;
+    padding-top: 10px;
+
+}
+.stream a img {
+    padding-top: 20px;
+    width: 100px;
+}
+.col .valign-wrapper img{
+    width: 100px;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.social a img {
+    width: 55px;
+    display: flex;
+    flex-wrap: wrap;
+
+
+}
+.page-footer {
+    background-color: #A4141D;
+}
+
+
+.white-text {
+    font-family:'Alumni Sans', sans-serif;
+    color:#D7D4C6;
+    width: 330px;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 600;
+}
+.grey-text  {
+    font-family:'Alumni Sans', sans-serif;
+    color:#D7D4C6;
+    width: 330px;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 450;
+}
+
+.col a img{
+    width: 100%;
+    padding-bottom: 15px;
+}
+
+.col p {
+    width: 325px;
+    padding-bottom: 45px;
+}
+.about {
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 30px;
+}
+
+
+.album-cover img {
+    width: 350px;
+}
+.songs p{
+    padding: 0px;
+    padding-left: 15px;
+    text-align: left;
+    width: 350px;
+
+}
+h1 {
+    padding-left: 10px;
+}
+
+
+}
+
+
