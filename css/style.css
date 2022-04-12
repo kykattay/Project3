@@ -330,6 +330,9 @@ h3 {
     aspect-ratio: 16 / 9;
     width: 100%;
 }
+.collapsible-body {
+    padding: 1rem !important;
+}
 
 @media only screen and (max-width: 750px) {
 
@@ -500,6 +503,7 @@ p.band-text.a {
     position: static;
     width:80%;
 }
+
 
 
 
