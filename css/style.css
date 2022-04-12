@@ -144,8 +144,6 @@ nav ul a{
 
 .about {
     font-family:'Amethsyta', serif;
-    padding-left: 130px;
-    padding-right: 130px;
     padding-bottom: 50px;
     font-size: 21px;
 }
@@ -269,7 +267,7 @@ h1 {
     text-align: left !important;
     font-size: 22px !important; 
     font-family:'Amethsyta', serif !important;
-    width: 330px !important;
+    width: 380px !important;
 }
 h3 {
     font-family:'Alumni Sans', sans-serif;
