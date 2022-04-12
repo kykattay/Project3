@@ -428,7 +428,6 @@ h3 {
 
 .col a img{
     width: 100%;
-    padding-bottom: 15px;
 }
 
 .col p {
@@ -489,8 +488,6 @@ p.band-text.a {
 
 .col img{
     width: 310px;
-    padding-bottom: 10px;
-    padding-top: 35px;
 }
 
 .tour-img img {
