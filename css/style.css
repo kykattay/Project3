@@ -299,6 +299,9 @@ h3 {
 .band-text b {
     font-size: 27px;
 }
+.member {
+    padding-bottom: 35px !important;
+}
 .col {
     width: 500px;
 }
