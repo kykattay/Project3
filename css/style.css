@@ -120,13 +120,19 @@ nav ul a{
     font-size: 25px;
     text-align: center;
 }
+.news {
+    box-shadow: 10px 10px #AD4545;
+}
+.news-text{
+    padding-top: 18px;
+}
 
 .col a img {
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-bottom: 20px;    
+    margin-bottom: 20px;    
 }
 .stream a img {
     padding-top: 20px;
@@ -143,14 +149,25 @@ nav ul a{
     padding-bottom: 50px;
     font-size: 21px;
 }
+.t-social {
+    font-family:'Amethsyta', serif;
+    text-align: center;
+    font-size: 21px;
+    padding-bottom: 55px;
+}
+.t-social a{
+    color:#A4141D;
+    padding-right: 20px;
+}
 
 .band-link {
     font-family:'Amethsyta', serif;
     font-size: 21px;
     text-align: center;
-    color: #000000;
+    color: #A4141D;
     text-decoration: none;
     padding-bottom: 100px;
+    font-weight: 600;
 }
 .page-footer {
     background-color: #A4141D;
@@ -213,25 +230,28 @@ h1 {
 }
 
 .row {
-    padding-left: 80px;
+    padding-left: 60px; /*ask!!!!*/
     padding-top: 20px;
     padding-bottom: 0px;
     margin-bottom: 7px;
 }
 
 .tour-img {
-    background-image: url(../img/ts-evermore.jpeg);
-    background-size: cover;
-    background-position: center;
     position: relative;
-    height: 90vh;
-    width: 60%;
+    width: 100%;
     background-repeat: no-repeat;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.tour-img img {
+    width:60%;
     border-radius: 30px;
 }
 .tour-text {
-    position: absolute;
     text-align: center;
+    position: absolute;
+    top: 0;
     width: 610px;
     font-family:'Alumni Sans', sans-serif;
     font-weight: 600;
@@ -302,6 +322,10 @@ h3 {
     text-align: left !important;
     font-size: 30px !important;
     font-weight: 500;
+}
+.video {
+    aspect-ratio: 16 / 9;
+    width: 100%;
 }
 
 @media only screen and (max-width: 750px) {
@@ -468,6 +492,18 @@ p.band-text.a {
     padding-bottom: 10px;
     padding-top: 35px;
 }
+
+.tour-img img {
+    width: 85%;
+}
+.tour-text {
+    position: static;
+    width:80%;
+}
+
+
+
+
 }
 
 
