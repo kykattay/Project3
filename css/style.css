@@ -114,10 +114,6 @@ nav ul a{
     line-height: 25px;
     padding-bottom: 15px;
 }
-.row {
-    padding-bottom: 0px;
-    margin-bottom: 7px;
-}
 
 .sub-head {
     font-family:'Alumni Sans', sans-serif;
@@ -219,6 +215,8 @@ h1 {
 .row {
     padding-left: 80px;
     padding-top: 20px;
+    padding-bottom: 0px;
+    margin-bottom: 7px;
 }
 
 .tour-img {
@@ -299,10 +297,6 @@ h3 {
 }
 .custom-image{
     width: 750px !important;
-}
-.container {
-    width:100%;
-    max-width: none;
 }
 .video-title{
     text-align: left !important;
